@@ -1,12 +1,13 @@
 #include<stdio.h>
+void reverse(int i);
 int main()
 {
-    int i=0;
-    do{
-        i++;
-        if(i==2)
-        break;
-        printf("%d In while loop\n",i);
-    }while(i<3);
-    printf("%d\n",i);
+    reverse(1);
+}
+void reverse(int i)
+{
+    if(i>5)
+    return ;
+    printf("%d",i);
+    return reverse((i++,i));
 }

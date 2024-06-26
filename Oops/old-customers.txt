@@ -1,7 +1,0 @@
-
-Customer ID: 12
-Name:  Elakkiya
-Age: 21
-Mobileno: 9092014769
-Address: abcdefghijkl
-Gender: Female
