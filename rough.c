@@ -1,10 +1,15 @@
 #include<stdio.h>
+#include<math.h>
+
 int main()
 {
-   int i=0;
-   for(printf("one\n");i<3 && printf("");i++)
-   {
-      printf("hi!/n");
-   }
+   int base = 2;
+
+   int power = 5;
+
+   int tp = pow(base,power);
+
+   printf("%d",tp);
+
    return 0;
 }
