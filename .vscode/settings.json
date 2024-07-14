@@ -4,8 +4,7 @@
         "string_view": "cpp",
         "regex": "cpp",
         "ostream": "cpp",
-        "iosfwd": "cpp"
-       
-
+        "iosfwd": "cpp",
+        "string": "c"
     }
 }
