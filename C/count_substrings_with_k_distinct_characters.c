@@ -8,6 +8,7 @@ int kd(char *str,int k)
     int cnt = 0;
     int count = 0;
     int arr[26] = {0};
+    
     while(str[j] != '\0')
     {
         if(arr[str[j]-'a'] ==0)
