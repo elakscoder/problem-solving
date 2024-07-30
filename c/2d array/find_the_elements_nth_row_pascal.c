@@ -1,4 +1,4 @@
-#include<stdio.h>
+#include <stdio.h>
 
 void pas(int n)
 {
@@ -7,22 +7,22 @@ void pas(int n)
 
     printf("1 ");
 
-    for(int i=1;i<n;i++)
+    for (int i = 1; i < n; i++)
     {
-        ans *= n - i ;
-        ans /= i ;
-        printf("%d ",ans);
+        ans *= n - i;
+        ans /= i;
+        printf("%d ", ans);
     }
 }
 
 int main()
 {
     int row;
-    
+
     printf("Enter the row: ");
-    scanf("%d",&row);
+    scanf("%d", &row);
 
     pas(row);
-    
+
     return 0;
 }

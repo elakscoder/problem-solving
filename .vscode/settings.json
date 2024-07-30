@@ -6,6 +6,17 @@
         "ostream": "cpp",
         "iosfwd": "cpp",
         "string": "c",
-        "sstream": "c"
+        "sstream": "c",
+        "array": "c",
+        "deque": "c",
+        "forward_list": "c",
+        "list": "c",
+        "unordered_map": "c",
+        "unordered_set": "c",
+        "vector": "c",
+        "initializer_list": "c",
+        "ranges": "c",
+        "span": "c",
+        "valarray": "c"
     }
 }
