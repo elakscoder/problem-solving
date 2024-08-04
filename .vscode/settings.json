@@ -17,6 +17,9 @@
         "initializer_list": "c",
         "ranges": "c",
         "span": "c",
-        "valarray": "c"
+        "valarray": "c",
+        "stdio.h": "c",
+        "chrono": "c",
+        "variant": "c"
     }
 }
